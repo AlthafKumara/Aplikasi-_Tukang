@@ -1,3 +1,4 @@
+import 'package:aplikasi_tukang/page/bantuan_page.dart';
 import 'package:aplikasi_tukang/page/beranda_page.dart';
 import 'package:aplikasi_tukang/page/pesanan_page.dart';
 import 'package:aplikasi_tukang/page/user_page.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/splash': (context) => SplashScreen(),
         '/': (context) => BerandaPage(),
         '/pesanan': (context) => PesananPage(),
+        '/bantuan': (context) => BantuanPage(),
         '/user': (context) => UserPage()
       },
     );

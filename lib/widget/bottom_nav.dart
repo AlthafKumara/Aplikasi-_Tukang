@@ -14,7 +14,10 @@ class _BottomNavState extends State<BottomNav> {
       Navigator.pushReplacementNamed(context, '/');
     } else if (index == 1) {
       Navigator.pushReplacementNamed(context, '/pesanan');
-    } else if (index == 3) {
+    }else if (index == 2) {
+      Navigator.pushReplacementNamed(context, '/bantuan');
+    } 
+    else if (index == 3) {
       Navigator.pushReplacementNamed(context, '/user');
     }
   }
@@ -24,6 +27,9 @@ class _BottomNavState extends State<BottomNav> {
     return BottomNavigationBar(
       selectedItemColor: Colors.amber.shade400,
       unselectedItemColor: Colors.grey.shade400,
+      type: BottomNavigationBarType.fixed,
+      selectedLabelStyle: TextStyle(fontSize: 12),
+      unselectedLabelStyle: TextStyle(fontSize: 12),
       showUnselectedLabels: true,
       currentIndex: widget.page,
       onTap: getPage,

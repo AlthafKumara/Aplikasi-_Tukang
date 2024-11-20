@@ -17,6 +17,8 @@ class _BerandaPageState extends State<BerandaPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        elevation: 0,
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.white,
         title: Image(
           image: AssetImage('assets/tukang_com.png'),
@@ -196,9 +198,12 @@ class _BerandaPageState extends State<BerandaPage> {
                   )),
             ),
             SizedBox(
-              height: 15,
+              height: 20,
             ),
-            BeritaWidget()
+            BeritaWidget(),
+            SizedBox(
+              height: 15,
+            )
           ],
         ),
       ),

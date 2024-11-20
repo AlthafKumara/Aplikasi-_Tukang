@@ -85,6 +85,9 @@ class _BeritaWidgetState extends State<BeritaWidget> {
                         ],
                       ),
                     )),
+                SizedBox(
+                  width: 15,
+                ),
                 ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         fixedSize: Size.square(200),
@@ -131,6 +134,9 @@ class _BeritaWidgetState extends State<BeritaWidget> {
                         ],
                       ),
                     )),
+                SizedBox(
+                  width: 15,
+                ),
                 ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         fixedSize: Size.square(200),
