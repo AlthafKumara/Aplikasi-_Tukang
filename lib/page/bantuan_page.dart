@@ -12,6 +12,9 @@ class _BantuanPageState extends State<BantuanPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Center(
+        child: Text('Layanan belum tersedia'),
+      ),
       bottomNavigationBar: BottomNav(2),
     );
   }
